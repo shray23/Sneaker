@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SneakersApp</string>
+    <string name="sneaker_ship">SNEAKERSHIP</string>
+    <string name="popular">Popular</string>
+    <string name="sort_by">Sort by</string>
+    <string name="home">Home</string>
+    <string name="cart">Cart</string>
+    <string name="size">Size (uk):</string>
+    <string name="colour">Colour:</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="checkout">Check Out</string>
+    <string name="subtotal">Subtotal : %s</string>
+    <string name="taxes_and_charges">Taxes and Charges : $40</string>
+    <string name="total">Total</string>
+    <string name="order_details">Order Details</string>
+    <string name="price_shoe"><![CDATA[Price : <b><font color="#F3512E">$%s</font></b>]]></string>
+    <string name="total_price"><![CDATA[Total : <b><font color="#F3512E">%s</font></b>]]></string>
+    <string name="check_mark"><![CDATA[\u2713]]></string>
+    <string name="empty_html"><![CDATA[]]></string>
+    <string name="empty"></string>
+    <string name="cart_empty">Cart is empty. Please add Sneakers to cart</string>
+    <string name="retail_price">$%d</string>
+    <string name="item_added_to_cart">Item added to cart</string>
+    <string name="coming_soon">Coming Soon!!</string>
+    <string name="brand">Brand : %s</string>
+    <string name="releasedate">Released On : %s</string>
+    <string name="search">Search</string>
+    <string name="search_by_title">Search by Title</string>
+    <string name="no_item_found">No Item Found, Search by valid title</string>
+</resources>

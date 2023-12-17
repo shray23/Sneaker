@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="size"
+            type="String" />
+
+        <variable
+            name="isSelected"
+            type="Boolean" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layout_root"
+        android:layout_width="@dimen/_60dp"
+        android:layout_height="@dimen/_44dp"
+        android:layout_margin="@dimen/_8dp"
+        android:background="@{isSelected ? @drawable/background_rounded_primary : @drawable/background_item_border}"
+        android:padding="@dimen/_12dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@{size}"
+            android:textColor="@{isSelected ? @color/white : @color/primary}"
+            android:textSize="@dimen/_textsize16"
+            android:textStyle="bold"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

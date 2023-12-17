@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ToolbarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize color of navigation drawer icon and back arrow -->
+        <item name="colorControlNormal">@color/primary</item>
+        <item name="android:textSize">@dimen/_textsize20</item>
+        <item name="titleTextColor">@color/primary</item>
+    </style>
+
+</resources>

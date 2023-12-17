@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.sneakersapp.fragment.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/layout_home_fragment" >
+        <action
+            android:id="@+id/showSneakerDetailFragment"
+            app:destination="@id/itemDetailFragment"
+            />
+    </fragment>
+
+    <fragment
+        android:id="@+id/itemDetailFragment"
+        android:name="com.example.sneakersapp.fragment.SneakerDetailFragment"
+        android:label="SneakerDetailFragment"
+        tools:layout="@layout/layout_sneaker_detail_fragment" >
+        <action
+            android:id="@+id/showCartFragment"
+            app:destination="@id/cartFragment"
+            />
+
+        <argument
+            android:name="data"
+            app:nullable="false"
+            app:argType="com.example.sneakersapp.data.SneakerData" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.sneakersapp.fragment.CartFragment"
+        android:label="CartFragment"
+        tools:layout="@layout/layout_cart_fragment" >
+
+    </fragment>
+
+</navigation>

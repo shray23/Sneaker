@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="androidx.lifecycle.LiveData" />
+
+        <import type="android.view.View" />
+
+        <import type="android.text.Html" />
+
+        <variable
+            name="adapter"
+            type="com.example.sneakersapp.adapter.CartItemAdapter" />
+
+        <variable
+            name="isCartEmpty"
+            type="LiveData&lt;Boolean>" />
+
+        <variable
+            name="subtotal"
+            type="LiveData&lt;String>" />
+
+        <variable
+            name="total"
+            type="LiveData&lt;String>" />
+
+        <variable
+            name="showProgress"
+            type="LiveData&lt;Boolean>" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:title="@string/cart"
+            app:titleTextColor="@color/primary"
+            app:titleTextAppearance="@style/ToolbarTheme" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/_12dp">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_cart_empty"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_16dp"
+                    android:gravity="center"
+                    android:text="@string/cart_empty"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_textsize20"
+                    android:textStyle="bold"
+                    android:visibility="@{isCartEmpty ? View.VISIBLE : View.GONE}"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
+
+                <ProgressBar
+                    android:id="@+id/progressBar_cyclic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="65dp"
+                    android:minWidth="65dp"
+                    android:visibility="@{showProgress ? View.VISIBLE : View.GONE}"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_12dp"
+                    android:nestedScrollingEnabled="false"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/_2dp"
+                    android:layout_marginStart="@dimen/_16dp"
+                    android:layout_marginEnd="@dimen/_16dp"
+                    android:visibility="@{isCartEmpty ? View.GONE : View.VISIBLE}"
+                    app:adapter="@{adapter}"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    app:layout_constraintBottom_toTopOf="@+id/tv_order_details"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_order_details"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_16dp"
+                    android:layout_marginTop="@dimen/_24dp"
+                    android:gravity="start"
+                    android:text="@string/order_details"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_textsize20"
+                    android:textStyle="bold"
+                    android:visibility="@{isCartEmpty ? View.GONE : View.VISIBLE}"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/recyclerview" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_subtotal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_16dp"
+                    android:layout_marginTop="@dimen/_24dp"
+                    android:gravity="start"
+                    android:text="@{@string/subtotal(subtotal)}"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/_textsize20"
+                    android:textStyle="normal"
+                    android:visibility="@{isCartEmpty ? View.GONE : View.VISIBLE}"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_order_details" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_taxesandcharges"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_16dp"
+                    android:layout_marginTop="@dimen/_24dp"
+                    android:gravity="start"
+                    android:text="@string/taxes_and_charges"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/_textsize20"
+                    android:textStyle="normal"
+                    android:visibility="@{isCartEmpty ? View.GONE : View.VISIBLE}"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_subtotal" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_price"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_16dp"
+                    android:layout_marginTop="@dimen/_36dp"
+                    android:gravity="start"
+                    android:text="@{Html.fromHtml(@string/total_price(total))}"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/_textsize16"
+                    android:textStyle="normal"
+                    android:visibility="@{isCartEmpty ? View.GONE : View.VISIBLE}"
+                    app:layout_constraintEnd_toStartOf="@id/btn_addtocart"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_taxesandcharges"
+                    app:layout_constraintWidth_percent=".4" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_addtocart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_button"
+                    android:backgroundTint="@color/primary"
+                    android:paddingHorizontal="@dimen/_8dp"
+                    android:paddingVertical="@dimen/_4dp"
+                    android:text="@string/checkout"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_textsize14"
+                    android:visibility="@{isCartEmpty ? View.GONE : View.VISIBLE}"
+                    app:layout_constraintBottom_toBottomOf="@+id/tv_price"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/tv_price"
+                    app:layout_constraintTop_toTopOf="@+id/tv_price"
+                    app:layout_constraintWidth_percent=".5" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

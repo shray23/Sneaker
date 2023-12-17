@@ -1,0 +1,422 @@
+[
+  {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6-1",
+    "brand": "Nike",
+    "colorway": [
+      "#FFBB86FC",
+      "#FF6200EE",
+      "#FF3700B3"
+    ],
+    "gender": "Male",
+    "media": {
+      "imageUrl": "https://picsum.photos/id/1/300/300",
+      "smallImageUrl": "https://picsum.photos/id/1/200/200",
+      "thumbUrl": "https://picsum.photos/id/1/100/100"
+    },
+    "releaseDate": "17 Jan 2021",
+    "retailPrice": 100,
+    "styleId": "unique121",
+    "shoe": "sneaker121",
+    "name": "Nike Pro 17 custom",
+    "title": "Nike Pro",
+    "year": 2023,
+    "size": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa7-2",
+    "brand": "Nike",
+    "colorway": [
+      "#FF03DAC5",
+      "#FF018786",
+      "#FF000000"
+    ],
+    "gender": "Male",
+    "media": {
+      "imageUrl": "https://picsum.photos/id/2/300/300",
+      "smallImageUrl": "https://picsum.photos/id/2/200/200",
+      "thumbUrl": "https://picsum.photos/id/2/100/100"
+    },
+    "releaseDate": "19 Feb 2021",
+    "retailPrice": 999,
+    "styleId": "unique121",
+    "shoe": "sneaker121",
+    "name": "Nike Pro 19 feb cus",
+    "title": "Nike Jordan",
+    "year": 2023,
+    "size": [
+      "8",
+      "9"
+    ]
+  },
+
+
+  {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa7-3",
+    "brand": "Adidas",
+    "colorway": [
+      "#FF03DAC5",
+      "#FF018786",
+      "#FF000000"
+    ],
+    "gender": "Male",
+    "media": {
+      "imageUrl": "https://picsum.photos/id/3/300/300",
+      "smallImageUrl": "https://picsum.photos/id/3/200/200",
+      "thumbUrl": "https://picsum.photos/id/3/100/100"
+    },
+    "releaseDate": "23 Feb 2021",
+    "retailPrice": 999,
+    "styleId": "unique121",
+    "shoe": "sneaker121",
+    "name": "Nike Pro 23",
+    "title": "Nike Sb",
+    "year": 2023,
+    "size": [
+      "8",
+      "9"
+    ]
+  },
+  {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa7-4",
+    "brand": "Nike",
+    "colorway": [
+      "#FF03DAC5",
+      "#FF018786",
+      "#FF000000"
+    ],
+    "gender": "Male",
+    "media": {
+      "imageUrl": "https://picsum.photos/id/4/300/300",
+      "smallImageUrl": "https://picsum.photos/id/4/200/200",
+      "thumbUrl": "https://picsum.photos/id/4/100/100"
+    },
+    "releaseDate": "27 Feb 2021",
+    "retailPrice": 999,
+    "styleId": "unique121",
+    "shoe": "sneaker121",
+    "name": "Nike Pro 27 air",
+    "title": "Nike Air Max",
+    "year": 2023,
+    "size": [
+      "8",
+      "9"
+    ]
+  },
+  {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa7-5",
+    "brand": "Nike",
+    "colorway": [
+      "#FF03DAC5",
+      "#FF018786",
+      "#FF000000"
+    ],
+    "gender": "Male",
+    "media": {
+      "imageUrl": "https://picsum.photos/id/5/300/300",
+      "smallImageUrl": "https://picsum.photos/id/5/200/200",
+      "thumbUrl": "https://picsum.photos/id/5/100/100"
+    },
+    "releaseDate": "19 Mar 2021",
+    "retailPrice": 999,
+    "styleId": "unique121",
+    "shoe": "sneaker121",
+    "name": "Nike Pro 19 new edition",
+    "title": "Nike Pro 19",
+    "year": 2023,
+    "size": [
+      "8",
+      "9"
+    ]
+  },
+  {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa7-6",
+    "brand": "Nike",
+    "colorway": [
+      "#FF03DAC5",
+      "#FF018786",
+      "#FF000000"
+    ],
+    "gender": "Male",
+    "media": {
+      "imageUrl": "https://picsum.photos/id/6/300/300",
+      "smallImageUrl": "https://picsum.photos/id/6/200/200",
+      "thumbUrl": "https://picsum.photos/id/6/100/100"
+    },
+    "releaseDate": "19 April 2021",
+    "retailPrice": 2399,
+    "styleId": "unique121",
+    "shoe": "sneaker121",
+    "name": "Nike Pro 19 air max latest edition",
+    "title": "Nike Air Max",
+    "year": 2023,
+    "size": [
+      "8",
+      "9"
+    ]
+  },
+  {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa7-7",
+    "brand": "Nike",
+    "colorway": [
+      "#FF03DAC5",
+      "#FF018786",
+      "#FF000000"
+    ],
+    "gender": "Male",
+    "media": {
+      "imageUrl": "https://picsum.photos/id/7/300/300",
+      "smallImageUrl": "https://picsum.photos/id/7/200/200",
+      "thumbUrl": "https://picsum.photos/id/7/100/100"
+    },
+    "releaseDate": "19 Feb 2022",
+    "retailPrice": 1299,
+    "styleId": "unique121",
+    "shoe": "sneaker121",
+    "name": "Nike Court Sneakers",
+    "title": "Nike Court",
+    "year": 2023,
+    "size": [
+      "8",
+      "9"
+    ]
+  },
+  {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa7-8",
+    "brand": "Nike",
+    "colorway": [
+      "#FF03DAC5",
+      "#FF018786",
+      "#FF000000"
+    ],
+    "gender": "Male",
+    "media": {
+      "imageUrl": "https://picsum.photos/id/8/300/300",
+      "smallImageUrl": "https://picsum.photos/id/8/200/200",
+      "thumbUrl": "https://picsum.photos/id/8/100/100"
+    },
+    "releaseDate": "22 Feb 2022",
+    "retailPrice": 899,
+    "styleId": "unique121",
+    "shoe": "sneaker121",
+    "name": "Nike Air Max Limited Edition 2022",
+    "title": "Nike Air",
+    "year": 2023,
+    "size": [
+      "8",
+      "9"
+    ]
+  },
+  {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa7-9",
+    "brand": "Nike",
+    "colorway": [
+      "#FF03DAC5",
+      "#FF018786",
+      "#FF000000"
+    ],
+    "gender": "Male",
+    "media": {
+      "imageUrl": "https://picsum.photos/id/9/300/300",
+      "smallImageUrl": "https://picsum.photos/id/9/200/200",
+      "thumbUrl": "https://picsum.photos/id/9/100/100"
+    },
+    "releaseDate": "19 Oct 2022",
+    "retailPrice": 999,
+    "styleId": "unique121",
+    "shoe": "sneaker121",
+    "name": "Nike Pro 121 custom",
+    "title": "Nike Pro",
+    "year": 2023,
+    "size": [
+      "8",
+      "9"
+    ]
+  },
+  {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa7-10",
+    "brand": "Nike",
+    "colorway": [
+      "#FF03DAC5",
+      "#FF018786",
+      "#FF000000"
+    ],
+    "gender": "Male",
+    "media": {
+      "imageUrl": "https://picsum.photos/id/10/300/300",
+      "smallImageUrl": "https://picsum.photos/id/10/200/200",
+      "thumbUrl": "https://picsum.photos/id/10/100/100"
+    },
+    "releaseDate": "19 Dec 2022",
+    "retailPrice": 999,
+    "styleId": "unique121",
+    "shoe": "sneaker121",
+    "name": "Nike Pro 129 custom made",
+    "title": "Nike Pro custom",
+    "year": 2023,
+    "size": [
+      "8",
+      "9"
+    ]
+  },
+  {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa7-11",
+    "brand": "Adidas",
+    "colorway": [
+      "#FF03DAC5",
+      "#FF018786",
+      "#FF000000"
+    ],
+    "gender": "Male",
+    "media": {
+      "imageUrl": "https://picsum.photos/id/11/300/300",
+      "smallImageUrl": "https://picsum.photos/id/11/200/200",
+      "thumbUrl": "https://picsum.photos/id/11/100/100"
+    },
+    "releaseDate": "09 Jan 2023",
+    "retailPrice": 999,
+    "styleId": "unique1121",
+    "shoe": "sneaker121",
+    "name": "Adidas originals 121 latest edition",
+    "title": "Adidas Originals",
+    "year": 2023,
+    "size": [
+      "8",
+      "9"
+    ]
+  },
+  {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa7-12",
+    "brand": "Puma",
+    "colorway": [
+      "#FF03DAC5",
+      "#FF018786",
+      "#FF000000"
+    ],
+    "gender": "Male",
+    "media": {
+      "imageUrl": "https://picsum.photos/id/12/300/300",
+      "smallImageUrl": "https://picsum.photos/id/12/200/200",
+      "thumbUrl": "https://picsum.photos/id/12/100/100"
+    },
+    "releaseDate": "12 Feb 2023",
+    "retailPrice": 999,
+    "styleId": "unique121",
+    "shoe": "sneaker121",
+    "name": "Puma Court royale",
+    "title": "Puma court sneakers",
+    "year": 2023,
+    "size": [
+      "8",
+      "9"
+    ]
+  },
+  {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa7-13",
+    "brand": "Nike",
+    "colorway": [
+      "#FF03DAC5",
+      "#FF018786",
+      "#FF000000"
+    ],
+    "gender": "Male",
+    "media": {
+      "imageUrl": "https://picsum.photos/id/13/300/300",
+      "smallImageUrl": "https://picsum.photos/id/13/200/200",
+      "thumbUrl": "https://picsum.photos/id/13/100/100"
+    },
+    "releaseDate": "17 May 2023",
+    "retailPrice": 999,
+    "styleId": "unique121",
+    "shoe": "sneaker121",
+    "name": "Nike Prime",
+    "title": "Nike Prime",
+    "year": 2023,
+    "size": [
+      "8",
+      "9"
+    ]
+  },
+  {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa7-14",
+    "brand": "Puma",
+    "colorway": [
+      "#FF03DAC5",
+      "#FF018786",
+      "#FF000000"
+    ],
+    "gender": "Male",
+    "media": {
+      "imageUrl": "https://picsum.photos/id/14/300/300",
+      "smallImageUrl": "https://picsum.photos/id/14/200/200",
+      "thumbUrl": "https://picsum.photos/id/14/100/100"
+    },
+    "releaseDate": "17 June 2023",
+    "retailPrice": 999,
+    "styleId": "unique121",
+    "shoe": "sneaker121",
+    "name": "Puma New Pro Athletics",
+    "title": "Puma Pro",
+    "year": 2023,
+    "size": [
+      "8",
+      "9"
+    ]
+  },
+  {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa7-15",
+    "brand": "Adidas",
+    "colorway": [
+      "#FF03DAC5",
+      "#FF018786",
+      "#FF000000"
+    ],
+    "gender": "Male",
+    "media": {
+      "imageUrl": "https://picsum.photos/id/15/300/300",
+      "smallImageUrl": "https://picsum.photos/id/15/200/200",
+      "thumbUrl": "https://picsum.photos/id/15/100/100"
+    },
+    "releaseDate": "17 Jul 2023",
+    "retailPrice": 999,
+    "styleId": "unique121",
+    "shoe": "sneaker121",
+    "name": "Adidas Predator 121",
+    "title": "Adidas Predator",
+    "year": 2023,
+    "size": [
+      "8",
+      "9"
+    ]
+  },
+  {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa7-16",
+    "brand": "Nike",
+    "colorway": [
+      "#FF03DAC5",
+      "#FF018786",
+      "#FF000000"
+    ],
+    "gender": "Male",
+    "media": {
+      "imageUrl": "https://picsum.photos/id/16/300/300",
+      "smallImageUrl": "https://picsum.photos/id/16/200/200",
+      "thumbUrl": "https://picsum.photos/id/16/100/100"
+    },
+    "releaseDate": "17 Aug 2023",
+    "retailPrice": 999,
+    "styleId": "unique121",
+    "shoe": "sneaker121",
+    "name": "Nike Nemesis",
+    "title": "Nike Nemesis 2121",
+    "year": 2023,
+    "size": [
+      "8",
+      "9"
+    ]
+  }
+]
