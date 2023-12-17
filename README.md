@@ -1,5 +1,5 @@
 Have made a basic sneaker app which consists of 3 screens
-screen 1 -> Dashboard screen which shows list of items
+screen 1 -> Dashboard screen which shows list of items which can be searched based on title
 screen 2 -> Detail screen which shows the selected item in detail
 screen 3 -> Cart screen, which shows the items added in the cart
 
